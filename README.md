@@ -12,7 +12,7 @@ https://docs.unity3d.com/Manual/UnityManual.html
 
 ## Interface Overview
 
-![Screenshot](https://raw.githubusercontent.com/junior-devleague/intro-to-unity-interface/master/assets/InterfaceOverview.png?token=AVj6tiDNAmmZfmVK8juPGUq8NlNoa-J0ks5ZiWE8wA%3D%3D)
+![Screenshot](https://raw.githubusercontent.com/junior-devleague/intro-to-unity-interface/master/assets/Interface.png?token=AVj6trmd6IxRPSy8lwEI2sW4Q4UU_3ofks5ZiWMEwA%3D%3D)
 
 The Unity Interface is made of 6 seperate windows which are...
 1. The Hierarchy Window
