@@ -79,3 +79,41 @@ If you can understand this, you understand how depth, horizontal, and vertical w
 
 ### Transform
 
+Before you understand what Transform is, you must first understand what a **GameObject** is.  A 3D Game Object is the standard building block in Unity, consider it like the dough to pizza.  These include shapes such as Cubes, Spheres, Capsules, Cylinders, Planes, and Quads.  Anytime you're creating a new item in Unity, you're instancing a new Game Object. Below is an example of a Cube GameObject in Unity. 
+
+![Screenshot](https://raw.githubusercontent.com/junior-devleague/intro-to-unity-interface/master/assets/GameObjectCubeExample.png?token=AVj6tjAfpHJrLzH_KqqbI1cL4ctUsBG0ks5ZiYGQwA%3D%3D)
+
+GameObjects are able to hold individual attributes which can modify a GameObject in many, many different ways.  You can see from the example above that the very first component added to the GameObject is **Transform** and the reason is that it is the default component that comes on all GameObjects.  
+
+*The Unity definition of Transform is as so..*
+![Screenshot](https://raw.githubusercontent.com/junior-devleague/intro-to-unity-interface/master/assets/UnityTransform.png?token=AVj6tloiMgC7-DU9NgHoUHgqCiLr7ZSuks5ZiYOmwA%3D%3D)
+
+*So, you're probably asking, what is position, rotation, and scale?*
+
+Positon, rotation and Scale are containers that store where that object is on the plane in respect to Origin (0, 0, 0).  
+
+#### Position 
+
+In a 3D object, using the Vector3D (formally called **Vector3** which stores the locations of the **x, y, and z** in the axis) we can adjust the coordinates of where the object is placed on the plane.  Doing so, will automatically update the Position's **x, y, and z** in the Transformer component.
+
+#### Rotation
+
+Rotation does not adjust the position of the Object, but simply the direction of it.  You are able to control the **x, y, and z** to face the object more left, right, up, or down.  Rotation is also useful for being able to control aiming from a first person point-of-view.
+
+#### Scale
+
+Scale is used to change the shape of the Object.  Using scale, we are able to create different size objects and different shapes.  Refer to the pictures for a visual example.
+
+![Screenshot](https://raw.githubusercontent.com/junior-devleague/intro-to-unity-interface/master/assets/Sphere.png?token=AVj6tgpdrgpLzCTfEAHQ0aCCquqB-NHNks5ZiY--wA%3D%3D) 
+
+**This is a sphere GameObject with a Transform.Scale property of (1, 1, 1)**
+
+![Screenshot](https://raw.githubusercontent.com/junior-devleague/intro-to-unity-interface/master/assets/SphereAfterX.png?token=AVj6tqICmx4UQLWz0be2GPbvj2--sKBhks5ZiY_IwA%3D%3D) 
+
+**Here is the same sphere after the object's x-axis was increased by 2 (3, 1, 1)**
+
+![Screenshot](https://raw.githubusercontent.com/junior-devleague/intro-to-unity-interface/master/assets/SphereAfterXandZ.png?token=AVj6tmuSr3ys0cYHTG76VZZxyrw38IXjks5ZiY_RwA%3D%3D) 
+
+**And here is the same sphere after the z-axis was shifted to 4 (3, 1, 4)**
+
+As you can see, you are able to make GameObjects into different shapes, thus forming new objects that can be used wherever needed.  
