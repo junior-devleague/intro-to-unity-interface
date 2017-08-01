@@ -65,4 +65,17 @@ In game Development, Vectors are used to define meshes, directions, and all mann
 A 2D Vector is a way of representing a point from the origin; the 0,0 point on the graph to any point on the 2D plane. *Ex. Above.* Since it is coming from the origin, it already has an implied direction and it is made up of only two components, **x** and **y**.
 
 #### Vector 3D
-![Screenshot]
+![Screenshot](https://raw.githubusercontent.com/junior-devleague/intro-to-unity-interface/master/assets/3DVector.png?token=AVj6tlkTQVMXDTVOkBszLJkWgsYU9lHEks5ZiXTAwA%3D%3D)
+
+A 3D Vector is similar to a 2D vector except for the fact that there is an added component known as **z** which represents depth.   The **x** and **z** axis make up the horizontal plane, while the **y** axis represents height.  Keep in mind that any coordinates represented in 3D will be in order **x, y, z**.  
+
+![Screenshot](https://raw.githubusercontent.com/junior-devleague/intro-to-unity-interface/master/assets/LeftHand.png?token=AVj6tkV7RM5yYoh4gDnYhkn4qsh8MGKKks5ZiXR9wA%3D%3D)
+
+*Another way to think of it is like this*
+
+Unity runs on a Left Hand Rule Coordinate System.  This means if you hold your left hand with your index finger pointed upwards and your thumb pointed out, forming an L shape, and your middle finger pointing away from you then the thumb represents the **x-axis**, your pointer represents the **y-axis** and your middle finger is the **z-axis**.  
+
+If you can understand this, you understand how depth, horizontal, and vertical works in Unity and how physics can be applied to them.  
+
+### Transform
+
