@@ -60,3 +60,9 @@ The Toolbar lets us view, pause, or step frame-by-frame through every scene.  It
 In game Development, Vectors are used to define meshes, directions, and all manners of calculations.  Which makes them *essential* to understand.  Simply, a vector is a **line between two points**.  The length of that line is called the **Magnitude**.  
 
 #### Vector2D
+![Screenshot](https://raw.githubusercontent.com/junior-devleague/intro-to-unity-interface/master/assets/2Dvector.png?token=AVj6tooFI3VXIiki2wOdkFYWtT5j0kAjks5ZiWbwwA%3D%3D)
+
+A 2D Vector is a way of representing a point from the origin; the 0,0 point on the graph to any point on the 2D plane. *Ex. Above.* Since it is coming from the origin, it already has an implied direction and it is made up of only two components, **x** and **y**.
+
+#### Vector 3D
+![Screenshot]
