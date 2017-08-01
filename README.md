@@ -1,10 +1,10 @@
-# intro-to-unity-interface
-[beginner] Unity Interface-User Interface, Vector, and Transform components
+# Getting to Know the Unity Interface
+Basics of using the Unity3D game engine platform.
 
-## Welcome to your first Unity Repo! 
-This guide is going to be covering the basics of Unity from the different parts of the User Interface to learning basic concepts such as Vectors and Transformations.
+## Welcome to the Unity3D Interface!
+This guide will cover the different parts of Unity's user interface and some basic game development concepts such as how to use Vectors and Transformations.
 
-Remember: Understanding the interface is key as a video game developer and should be second nature.  So refer back to this if you ever need help!
+_**Remember:**_ Understanding the interface is key as a video game developer and should be second nature. So refer back to this if you ever need help!
 
 Happy gaming! 
 ## A Resource you should definitely check out
