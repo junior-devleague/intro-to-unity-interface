@@ -50,3 +50,13 @@ The Toolbar lets us view, pause, or step frame-by-frame through every scene.  It
 * Collab: Lets us download updates to the project that someone may have uploaded
 * Layers: Lets us hide or show content in-game
   * You can create your own layers and layouts
+
+### And that's it! 
+...*Or is it?*
+
+## A few concepts for you to understand
+
+### Vector3 and Vector2
+In game Development, Vectors are used to define meshes, directions, and all manners of calculations.  Which makes them *essential* to understand.  Simply, a vector is a **line between two points**.  The length of that line is called the **Magnitude**.  
+
+#### Vector2D
