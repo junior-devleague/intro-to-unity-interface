@@ -9,7 +9,10 @@ Remember: Understanding the interface is key as a video game developer and shoul
 Happy gaming! 
 
 ## Interface Overview
-The Unity Interface is made of 5 seperate windows
-  
-![Interface](/assets/Beginner'sChallenge.png)
+The Unity Interface is made of 5 seperate windows which are...
+1. The Hierarchy Window
+2. The Project Window
+3. The Inspector Window
+4. The Scene View
+5. The Game View
 
