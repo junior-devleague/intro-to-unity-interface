@@ -51,8 +51,8 @@ The Toolbar lets us view, pause, or step frame-by-frame through every scene.  It
 * Layers: Lets us hide or show content in-game
   * You can create your own layers and layouts
 
-### And that's it! 
-...*Or is it?*
+# And that's it! 
+**...*Or is it?***
 
 ## A few concepts for you to understand
 
