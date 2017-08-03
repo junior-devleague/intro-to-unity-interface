@@ -4,11 +4,11 @@ Basics of using the Unity3D game engine platform.
 ## Welcome to the Unity3D Interface!
 This guide will cover the different parts of Unity's user interface and some basic game development concepts such as how to use Vectors and Transformations.
 
-_**Remember:**_ Understanding the interface is key as a video game developer and should be second nature. So refer back to this if you ever need help!
-
 Happy gaming! 
+
 ## A Resource you should definitely check out
 https://docs.unity3d.com/Manual/UnityManual.html
+
 
 ## Interface Overview
 
@@ -41,7 +41,7 @@ The Inspector Window is a context sensitive window which shows us the properties
 The Scene View is where we are going to visually build the game.  It allows us to visually interact with objects, adjusting the x, y, z or axis of any object, if needed.
 
 ### The Game View
-The Game View allows us to preview our game in the editor.  By using the play controls in the toolbar we can play test the game at any time.
+The Game View allows us to preview our game in the editor.  By using the play controls in the toolbar we can play test the game at any time.  The view in this tab is based on the Main Camera in your scene so when you move it around, you're going to see different things in the game view.  **Note:** You can't move things around in the game view, only the scene view and any changes you make in the scene view during play will only show up AFTERWARDS. 
 
 ### The ToolBar
 The Toolbar lets us view, pause, or step frame-by-frame through every scene.  It contains transform tools and gizmo toggles, play controls, controls for account and layout. 
@@ -55,6 +55,19 @@ The Toolbar lets us view, pause, or step frame-by-frame through every scene.  It
 ...*Or is it?*
 
 ## A few concepts for you to understand
+
+### GameObjects
+Before you can understand what Components, Scripts, or Vectors are, you must first understand what a **GameObject** is.  A 3D Game Object is the standard building block in Unity, consider it like the dough to pizza.  These include shapes such as Cubes, Spheres, Capsules, Cylinders, Planes, and Quads.  GameObjects are able to hold individual attributes which can modify a GameObject in many, many different ways.  Anytime you're creating a new item in Unity, you're instancing a new Game Object. Below is an example of a Cube GameObject in Unity. 
+
+![Screenshot](https://raw.githubusercontent.com/junior-devleague/intro-to-unity-interface/master/assets/GameObjectCubeExample.png?token=AVj6tjAfpHJrLzH_KqqbI1cL4ctUsBG0ks5ZiYGQwA%3D%3D)
+
+### Components
+Components are the functional parts behind every **GameObject** which can adjust the behaviors of objects in a game.  Think of a **GameObject** simply as a container, and you add pieces to that container whether it be animations for a character, a light, a sound or whatever else to create it that object into something that you desire.  This piece that you're adding is called a **Component**. 
+
+**Note:** Every Game Object will always start off with one default component called **Transform**, and you can use the Inspector Window to view all of the Components you have attached to a GameObject.  If you ever need to see what Components are attached to a GameObject, simply click on the Object and view the Inspector Window for details.
+
+### Scripts
+Scripts are like custom Components that you create to have an object go **beyond** what a prebuilt Component can do.  Perhaps you want an object such as the main character to respond to your input, or you want to trigger a game event.  Scripting will allow you to do this! Unity supports two programming languages which we'll be using to write Scripts, the main language we'll be using to write scripts will be **C#** and we'll be going more into depth with how the language works.  Just know for now that Scripts are custom components which function exactly the same way regualar Components do.
 
 ### Vector3 and Vector2
 In game Development, Vectors are used to define meshes, directions, and all manners of calculations.  Which makes them *essential* to understand.  Simply, a vector is a **line between two points**.  The length of that line is called the **Magnitude**.  
@@ -78,12 +91,7 @@ Unity runs on a Left Hand Rule Coordinate System.  This means if you hold your l
 If you can understand this, you understand how depth, horizontal, and vertical works in Unity and how physics can be applied to them.  
 
 ### Transform
-
-Before you understand what Transform is, you must first understand what a **GameObject** is.  A 3D Game Object is the standard building block in Unity, consider it like the dough to pizza.  These include shapes such as Cubes, Spheres, Capsules, Cylinders, Planes, and Quads.  Anytime you're creating a new item in Unity, you're instancing a new Game Object. Below is an example of a Cube GameObject in Unity. 
-
-![Screenshot](https://raw.githubusercontent.com/junior-devleague/intro-to-unity-interface/master/assets/GameObjectCubeExample.png?token=AVj6tjAfpHJrLzH_KqqbI1cL4ctUsBG0ks5ZiYGQwA%3D%3D)
-
-GameObjects are able to hold individual attributes which can modify a GameObject in many, many different ways.  You can see from the example above that the very first component added to the GameObject is **Transform** and the reason is that it is the default component that comes on all GameObjects.  
+You can see from the example above that the very first component added to the GameObject is **Transform** and the reason is that it is the default component that comes on all GameObjects.  
 
 *The Unity definition of Transform is as so..*
 ![Screenshot](https://raw.githubusercontent.com/junior-devleague/intro-to-unity-interface/master/assets/UnityTransform.png?token=AVj6tloiMgC7-DU9NgHoUHgqCiLr7ZSuks5ZiYOmwA%3D%3D)
